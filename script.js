@@ -5,24 +5,58 @@ function setup() {
   p5Canvas = createCanvas(800, 600);
   p5Canvas.parent("#p5-canvas");
   myName = select("#my-name");
-  myName.html("[Your Name Here]"); // enter your name here!
+  myName.html("Sinahy"); // enter your name here!
 }
 
- /*
-  full reference: https://p5js.org/reference/
-  line: https://p5js.org/reference/#/p5/line
-  rectangle: https://p5js.org/reference/#/p5/rect
-  ellipse: https://p5js.org/reference/#/p5/ellipse
-  arc: https://p5js.org/reference/#/p5/arc
-  background color: https://p5js.org/reference/#/p5/background
-  shape color: https://p5js.org/reference/#/p5/fill
-  line color, weight, etc: https://p5js.org/reference/#/p5/stroke
- */
-
-// Write all your code inside the draw() function below!
 function draw() {
-  // Example. You can remove when you're ready!
-  background(0, 255, 0); // try changing this to a blue background
+  background(65, 105, 225); 
   fill(255, 204, 0);    // Always call fill() before the shape you want to fill in.
-  rect(30, 20, 55, 55); // Draw a 30x20 pixel rectangle at coordinate (55,55)
-}
+  ellipse(30, 20, 120, 120); 
+    stroke(255, 204, 0);
+    strokeWeight(2);
+    line(65, 68, 130, 140);
+    fill('yellow');
+    line(20, 80, 50, 170);
+    fill('yellow');
+    line(89, 20, 210, 100);
+    fill('yellow');
+    line(5, 75, 5, 140);
+    fill('yellow');
+    line(44, 78, 75, 135);
+    fill('yellow');
+    line(140, 90, 82, 47);
+    fill('yellow');
+    line(88, 2, 167, 20);
+    if (keyIsPressed === true) {
+    stroke(0);
+    } else {
+    stroke('yellow');
+    }
+  line(65, 68, 130, 140);
+    if (keyIsPressed === true) {
+    fill(0);
+    } else {
+    fill('yellow');
+    }
+  ellipse(30, 20, 120, 120);
+    if (keyIsPressed === true) {
+    fill(0);
+    } else {
+    fill('yellow');
+    }
+  line(20, 80,50,170);
+    if (keyIsPressed === true) {
+    fill(0);
+    } else {
+    fill('yellow');
+    }
+  line(89, 20, 210, 100);
+    if (keyIsPressed === true) {
+    fill(0);
+    } else {
+    fill('yellow');
+    }
+  line(30, 20, 120, 120);
+    
+}  
+
