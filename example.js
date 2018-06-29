@@ -8,17 +8,6 @@ function setup() {
   myName.html("Teacher");
 }
 
- /*
-  full reference: https://p5js.org/reference/
-  line: https://p5js.org/reference/#/p5/line
-  rectangle: https://p5js.org/reference/#/p5/rect
-  ellipse: https://p5js.org/reference/#/p5/ellipse
-  arc: https://p5js.org/reference/#/p5/arc
-  background color: https://p5js.org/reference/#/p5/background
-  shape color: https://p5js.org/reference/#/p5/fill
-  line color, weight, etc: https://p5js.org/reference/#/p5/stroke
- */
-
 // Write all your code inside the draw() function below!
 function draw() {
   background(0, 255, 0);
